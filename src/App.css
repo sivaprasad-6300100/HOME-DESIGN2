@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.none{
+    text-decoration: none;   
+    color: black;
+    /* background: linear-gradient(to right, #FF6F61, #FFD700, #008080); */
+    /* background-clip: text; */
+    /* color: transparent; */
+}
+
+.NavBar{
+    display: flex;
+    justify-content: space-around;
+    font-family: sans;
+    font-size: 18px;
+    width: 100%;
+    background-color: #f5f5dc;
+    padding: 12px 0px;
+    position: fixed;
+}
+
+.Nav-text{
+    color: green;
+    font-size: 25px;
+}
+.none:hover{
+    color: red;
+    border-bottom:2px solid red;
+}
+/* ============================= sticky NavBarcode ends...........   ============================================================== */
+.main-img{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/public/images/pic1.jpg');
+    background-size: cover;
+    background-position: center;
+    border-top: 2px solid red;
+    height: 700px;
+}
+.img-text{
+    background: linear-gradient(90deg, #FFD700, #FF4500, #FF1493, #00BFFF);
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;    
+    font-size: 2.5em;
+    margin-top: 90px;
+    margin-left: 5%;
+    font-family: sans;
+}
+.img-text1{
+    background: linear-gradient(90deg, #fddb92, #d1fdff);
+    background-clip: text;
+    font-weight: bold;
+    color: transparent;
+    margin-top: 12px;
+    font-family: monospace;
+    margin-left: 6%;
+    font-size: 1.3em;
+
+}
+.img-text2{
+    background: linear-gradient(135deg, #FF4E50, #FC913A, #F9D423, #E1F5C4);
+    background-clip: text;
+    color: transparent;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 5%;
+    font-family: sans;
+}
+.img-text3{
+    background: linear-gradient(90deg, #fddb92, #d1fdff);
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: monospace;
+    margin-left: 6%;
+    font-size: 1.3em;
+}
+/* slider code... */
+.slider {
+    /* margin: 2% 0%; */
+    /* border-radius: 22px; */
+    /* box-shadow: -2px 2px 52px palegreen; */
+    border-top: 2px solid pink;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .slider-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider-image {
+    min-width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  button.prev,
+  button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+  }
+  
+  button.prev {
+    left: 10px;
+  }
+  
+  button.next {
+    right: 10px;
+  }
+  
+/* =========================  Homepage header code ends.........============================ */
+
+/* cards code strats............... */
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  background: linear-gradient(to bottom right, );
+  color: white;
+  border-radius: 15px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.card h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+.card p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
