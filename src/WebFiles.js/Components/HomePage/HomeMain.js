@@ -1,18 +1,12 @@
 import React from 'react'
 
-function HomeMain({cards}) {
+function HomeMain({items}) {
   return (
     <>
-    <div className='card-container'>
-  {cards.map((person,index) =>(
-    <div 
-    key ={index}
-    name ={person.name}
-    image ={person.image}
-    experience={person.experience} className='card' />
-  ))}     
-    </div>
-    </>
+    {items.map((fruit, index) => (
+          <li key={index}>{fruit}</li>
+        ))}
+</ >
   )
 }
 

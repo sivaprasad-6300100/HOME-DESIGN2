@@ -14,30 +14,13 @@ const HomePage1 = () => {
     "/images/woodmain.jpg", // Image in the public/images folder
   ];
 
+  const items =['banana','graps','apple','lemon']
 
-  const cards =[
-    {
-      name:"vamshi",
-      Image:'/images.upvc-main.jpeg',
-      experience:"  5 years"
-    },
-    {
-      name:"siva",
-      image:"/images/alluminium-main.jpg", 
-      experience:"5 years"
-    },
-    {
-      name:'ram',
-      image:'"/images/woodmain.jpg',
-      experience:'5 years'
-    }
-
-  ]
 
   return (
     <>
     <HomeHeader images={images} />
-    <HomeMain  cards={cards} />
+    <HomeMain  items={items} />
     </>
   )  
 }
