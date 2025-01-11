@@ -13,14 +13,38 @@ const HomePage1 = () => {
     "/images/alluminium-main.jpg", // Image in the public/images folder
     "/images/woodmain.jpg", // Image in the public/images folder
   ];
-
-  const items =['banana','graps','apple','lemon']
+ const data =[
+  {
+    'id':1,
+    'name':'siva prasad',
+    'image':'image1',
+    'experience':'2years'
+  },
+  {
+    'id':2,
+    'name':'satya',
+    'image':'image2',
+    'experience':'3years'
+  },
+  {
+    'id':3,
+    'name':'sunil',
+    'image':'image3',
+    'experience':'5years'
+  },
+  // {
+    // 'id':4,
+    // 'name':'durga',
+    // 'image':'image4',
+    // 'experience':'3years'
+  // }
+ ];
 
 
   return (
     <>
     <HomeHeader images={images} />
-    <HomeMain  items={items} />
+    <HomeMain  Data={data} />
     </>
   )  
 }
