@@ -12,7 +12,7 @@ const NavBar = () => {
          <NavLink to='AlluminiumPage' className='none' >ALLUMINIUM</NavLink>
          <NavLink to='UpvcPage'className='none'>UPVC</NavLink>
          <NavLink to='WoodWork' className='none'>WOODWORK</NavLink>
-         <NavLink to='SignIn' className='none'>SIGNIN</NavLink>
+         <NavLink to='SignIn' className='none'>REGISTER</NavLink>
       </div>
     </div>
       

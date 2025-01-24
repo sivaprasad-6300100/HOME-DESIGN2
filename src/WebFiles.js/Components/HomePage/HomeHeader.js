@@ -30,7 +30,7 @@ function HomeHeader({ images }) {
       <p className='img-text1'>Premium PVC, UPVC, and aluminum products without the premium price.</p>
       <h2 className='img-text2'>Transform Your Space with the Best Materials</h2>
       <p className='img-text3'>Choose PVC, UPVC, and aluminum for strength, style, and sustainability.</p>
-      <button className="signup  ">SIGNUP</button>
+      <button className="signup  ">REGISTER</button>
       <button className="contact ">CONTACT</button>
     </div>
     <div className="slider">

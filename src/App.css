@@ -6,6 +6,8 @@
 .none{
     text-decoration: none;   
     color: black;
+    /* color: white; */
+    font-weight: 500;
     /* background: linear-gradient(to right, #FF6F61, #FFD700, #008080); */
     /* background-clip: text; */
     /* color: transparent; */
@@ -17,17 +19,22 @@
     font-family: sans;
     font-size: 18px;
     width: 100%;
-    background-color: #f5f5dc;
+    /* background-color: gray; */
+    background-color: white;
+    background-color: none;
     padding: 12px 0px;
     position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 .Nav-text{
     color: green;
+    font-weight: 700;
     font-size: 25px;
 }
 .none:hover{
     color: red;
-    border-bottom:2px solid red;
+    /* border-bottom:2px solid red; */
 }
 /* ============================= sticky NavBarcode ends...........   ============================================================== */
 /* ====================header code begins====================== */
@@ -82,6 +89,7 @@
 .signup{
    margin: 6% 8%;
    border: 2px solid red;
+   /* border-Image:linear-gradient(to right, red, blue); */
    padding: 10px 35px;
    border-radius: 15px;
    font-weight: 700;
@@ -150,11 +158,13 @@
   display: flex;
   justify-content: space-around;
   gap: 20px;
+  /* overflow: hidden; */
   margin-top: 30px;
 }
 .card {
   /* background: linear-gradient(to bottom right, ); */
-  background: linear-gradient(to bottom, #a8dadc, #f1faee, #e0fbfc);
+  background: linear-gradient(90deg, #fddb92, #d1fdff);
+  /* background: linear-gradient(to bottom, #a8dadc, #f1faee, #e0fbfc); */
   color: white;
   border-radius: 15px;
   padding: 20px;
@@ -241,4 +251,92 @@
   background-clip: text;
   color: transparent;
     
+}
+/* =============================== */
+.image-container{
+  display: flex;
+  /* justify-content: space-around; */
+}
+.row1{
+  width: 250px;
+  height: 280px;
+  border-radius: 10px;
+  margin-left:32px;
+  box-shadow: 0px 0px 18px gray;  
+  transition: transform 0.5s ease-in-out;
+
+}
+.row1:hover{
+  transform: translateY(-10px);
+}
+.Bed-styles{
+   font-size: 2em;
+   margin:60px 22px;
+   font-weight: 700;
+   color: #F9D423;
+}
+.image-container2{
+  display: flex;
+  justify-content: flex-end;
+}
+.row2{
+  width: 250px;
+  height: 280px;
+  margin: 80px 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px gray;
+  transition: transform 0.5s ease-in-out;
+}
+.row2:hover{
+  transform:translateY(-10px)
+}
+.Bed-styles2{
+  font-size: 2em;
+  margin:120px 16px;
+  font-weight: 700;
+  color: #F9D423;
+}
+/* ===============MAIN FOOTER============= */
+.Main-Footer{
+  width: 100%;
+  height: 800px;
+  background-color:#000;
+}
+.Main-Footer2{
+  width: 100%;
+  height: 225px;
+  background-color:#000;
+  display: flex;
+}
+
+.box{
+  width: 25%;
+  height: 200px;
+  /* background-color: #00BFFF; */
+  color: #E1F5C4;
+  font-weight: 700;
+  margin-top:20px;
+  margin-left: 10px;
+}
+.box1-text{
+  color: red;
+  /* margin: 10px 8px; */
+}
+.box2-text{
+  color: #FF1493;
+}
+.box3-text{
+  color: white;
+}
+.box4-text{
+  color: #FC913A;
+}
+.box2{
+  width: 25%;
+  height: 200px;
+  /* background-color: #00BFFF; */
+  color: #E1F5C4;
+  font-weight: 700;
+  /* margin-top:20px; */
+  margin-left: 40%;
 }
